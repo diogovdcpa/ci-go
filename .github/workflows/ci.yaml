@@ -14,4 +14,5 @@ jobs:
         with:
           python-version: 3.12
       - name: Display Python version
+        run: pip install pytest
         run: pytest test_calculadora.py
