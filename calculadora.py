@@ -1,6 +1,6 @@
 class Calculadora:
 
-    def Soma(self, a, b):
+    def soma(self, a, b):
         return a + b
     
     def subtrair(self, a, b):
