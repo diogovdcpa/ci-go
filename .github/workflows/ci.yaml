@@ -25,5 +25,4 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Test with pytest
-      run: |
-        pytest test_calculadora.py
+      run: pytest test_calculadora.py
