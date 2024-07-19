@@ -6,6 +6,5 @@ jobs:
     steps:
       - uses: action/checkout@v4
       - uses: action/setup-python@v4
-        with: 3.12
       - run: pytest test_calculadora.py
       - run: python calculadora.py
