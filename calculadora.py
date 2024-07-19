@@ -5,4 +5,3 @@ class Calculadora:
     
     def subtrair(self, a, b):
         return a - b
-    
